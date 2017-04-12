@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="150.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="acessodeusuario.ResultadoAcessoController">
+   <children>
+      <Label fx:id="lbnome" layoutX="22.0" layoutY="24.0">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbMensagem" layoutX="22.0" layoutY="75.0" />
+   </children>
+</AnchorPane>
